@@ -95,7 +95,7 @@ BEGIN
 END;
 
 BEGIN
-    
+    -- another statement:  SELECT * FROM test_change_cols WHERE prod_id='PRODUCT1' 
     vsql := q'[
         SELECT 1 as cola, 2 as colb, 3 as colc FROM dual
         UNION ALL
