@@ -81,8 +81,9 @@ END;
 
 BEGIN
     vsql := q'[
-    SELECT * FROM test_change_cols WHERE prod_id='PRODUCT1' 
+    SELECT * FROM t4t_change_cols WHERE prod_id='PRODUCT1' 
     ]';
+    -- run query : SELECT * FROM t4t_change_cols WHERE prod_id='PRODUCT1'  to see what changes were made before
     
     vcols := show_changed_columns(vsql);
 
