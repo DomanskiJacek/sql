@@ -97,6 +97,7 @@ END;
 BEGIN
     -- another statement:  SELECT * FROM test_change_cols WHERE prod_id='PRODUCT1' 
     vsql := q'[
+			SELECT * FROM t4t_change_cols WHERE prod_id='PRODUCT1' 
     ]';
     -- run query : SELECT * FROM t4t_change_cols WHERE prod_id='PRODUCT1'  to see what changes were made before
     
