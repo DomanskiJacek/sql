@@ -2,9 +2,6 @@
 
 ### all objects created in this example are named t4t* so can be easily found and droped
 
-## drop objects
-ora$ptt_test, t4t_sales, t4t_test, t4t_change_cols, t4t_tab_reorder, t4t_change_cols
-
 ## 01_create_table.sql
 created table t4t_sales used in samples below
 
