@@ -18,6 +18,13 @@ used: merge, listagg overflow, regexp_substr, sys.odcivarchar2list, window claus
 anonymous block using bulk collect
 the same logic performed in plain sql
 
+## 40_types_and_nested_tabs.sql
+created types and nested table
+
+## 41_nested_table.sql
+populate nested table with sample data
+show MULTISET in select statement
+
 ## changed_columns
 show columns in query that changed values; useful when analyzing queries with many columns
 ### two files involved:
@@ -32,5 +39,5 @@ must be run with no sys priviledge otherwise: 54053. 0000 -  "The visibility of 
 changes the order of columns in a table
 
 ## 90_drop_t4t_objects.sql
-generates script to DROP all objects with the name: t4t
+generates script to DROP all objects with the name starting widt: t4t
 script must be run manually
